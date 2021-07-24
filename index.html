@@ -1,0 +1,286 @@
+<!DOCTIPE html>
+	<html lang="eng">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Copartable" content="IE-edge">
+		<title>BLUEASY</title>
+		<!-----GOOGLE FONTS-->
+		<link href="https://fonts.googleapis.com/css?family=Bitter:700&display=swap" rel="stylesheet">
+		<!--FONTAWESOME-->
+		<script src="https://kit.fontawesome.com/7ebfb08ae9.js" crossorigin="anonymous"></script>
+
+		<!-----VENDORS FILE----->
+		<link rel="stylesheet" href="vendors/css/grid.css">
+		<link rel="stylesheet" href="vendors/css/normalize.css">
+		<link rel="stylesheet" href="vendors/css/lightbox.min.css">
+		<!------RESOURSE FILE------>
+		<link rel="stylesheet" href="resourse/css/style.css">
+		<link rel="stylesheet" href="resourse/css/responsive.css">
+
+	</head>
+	<body>
+		<!----START HEADER SECTION----->
+		<header class="header-section" id="home">
+			<nav class="main-navbar">
+				<div class="row">
+					<a href="#"><img src="resourse/img/logo.png" alt="Logo" class="logo"></a>
+					<ul class="menu">
+						<li class="active"><a href="#" class="active">home</a></li>
+						<li><a href="#service">services</a></li>
+						<li><a href="#portfolio">portfolio</a></li>
+						<li><a href="#features">features</a></li>
+						<li><a href="#testiomnial">testiomnials</a></li>
+						<li><a href="#contact">contact</a></li>
+					</ul>
+				
+				<div class="mobile-menu">
+					<span onclick="openNav()">&#9776;</span>
+					<div class="overlay" id="myNav">
+						<a href="javascript:void();" onclick="closeNav()" class="closebtn">&times;</a>
+						<div class="content-overlay">
+							<a onclick="closeNav()" href="#home" >home</a>
+							<a onclick="closeNav()" href="#service">services</a>
+							<a onclick="closeNav()" href="#portfolio">portfolio</a>
+							<a onclick="closeNav()" href="#features">features</a>
+							<a onclick="closeNav()" href="#testiomnial">testiomnials</a>
+							<a onclick="closeNav()" href="#contact">contact</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</nav>
+			<div class="row">
+				<div class="header-text-box">
+					<h1>“I’m looking for the unexpected. I’m looking for things I’ve never seen before.” </h1>
+				</div>
+			</div>
+		</header>
+
+		<!----END HEADER SECTION----->
+		<!----START SERVICES SECTION----->
+		<section class="service-section sticky-menu" id="service">
+			<div class="row">
+				<h2>services</h2>
+			</div>
+			<div class="row">
+				<div class="col span_1_of_4 box">
+					<div class="icon">
+						<img src="resourse//img/icons/coffee-icon.png" alt="Coffee">
+					</div>
+					<h3>Coffee</h3>
+					<p class="little-description">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+				</div>
+				<div class="col span_1_of_4 box">
+					<div class="icon">
+						<img src="resourse/img/icons/instant-icon.png" alt="Instant">
+					</div>
+					<h3>Instant</h3>
+					<p class="little-description">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+				</div>
+				<div class="col span_1_of_4 box">
+					<div class="icon">
+						<img src="resourse/img/icons/dslr-icon.png" alt="Serious">
+					</div>
+					<h3>serious</h3>
+					<p class="little-description">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+				</div>
+				<div class="col span_1_of_4 box">
+					<div class="icon">
+						<img src="resourse/img/icons/frame-icon.png" alt="Frame">
+					</div>
+					<h3>Frame</h3>
+					<p class="little-description">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+				</div>
+			</div>
+		</section>
+
+		<!----END SERVICES SECTION----->
+		<!----START PORTFOLIO SECTION----->
+
+		<section class="portfolio-section" id="portfolio">
+			<div class="row">
+				<h2>portfolio</h2>
+				<div class="btn btn-mix">
+					<button data-filter="all">all</button>
+					<button data-filter=".panoramas">panoramas</button>
+					<button data-filter=".portraits">portraits</button>
+					<button data-filter=".macro">macro</button>
+					<button data-filter=".journal">journal</button>
+				</div>
+			</div>
+
+			<div class="row portfolio-img container">
+				<div class="col span_1_of_6 box ">
+				<img src="resourse/img/portfolio/add-img.png" alt="">
+				</div>
+				<div class="col span_1_of_6 box mix panoramas">
+					<img src="resourse/img/portfolio/port- (1).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix panoramas ">
+				<img src="resourse/img/portfolio/port- (2).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix panoramas">
+					<img src="resourse/img/portfolio/port- (3).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix portraits">
+				<img src="resourse/img/portfolio/port- (4).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix portraits">
+				<img src="resourse/img/portfolio/port- (5).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix portmacroraits">
+					<img src="resourse/img/portfolio/port- (6).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix macro">
+				<img src="resourse/img/portfolio/port- (7).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix macro">
+				<img src="resourse/img/portfolio/port- (8).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix journal  ">
+				<img src="resourse/img/portfolio/port- (9).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix journal " >
+				<img src="resourse/img/portfolio/port- (10).jpg" alt="Image">
+				</div>
+				<div class="col span_1_of_6 box mix journal">
+					<img src="resourse/img/portfolio/port- (11).jpg" alt="Image">
+				</div>
+
+			</div>
+		</section>
+
+		<!----END PORTFOLIO SECTION----->
+
+		<!----START DEFAULT SECTION----->
+		<section class="default-section" id="features">
+			<div class="row">
+				<h2>Just default Section</h2>
+				<div class="col span_1_of_2 first-child">
+					<p class="little-description">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.
+					<br><br>
+					Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+					</p>
+					<a href="#" class="btn-visit">Visit me</a>
+				</div>
+				<div class="col span_1_of_2">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/oCYYHNvYcSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+		<!----END DEFAULT SECTION----->
+		<!----START TWITTER SECTION----->
+
+			<section class="twitter-section">
+				<div class="row">
+					<h2>Twitter</h2>
+					<a href="#" class="twitter-icon"><i class="fab fa-twitter"></i></a>
+				</div>
+				<div class="row">
+					<h3>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <a href="#" class="email"> <strong>@cheesecake</strong></a> tootsie roll.</h3>
+				</div>
+			</section>
+
+		<!----END TWITTER SECTION----->
+		<!----START INTRODUCTION SECTION----->
+
+		<section class="introduction-section">
+			<div class="row">
+
+					<h2>Who is john doe?</h2>
+
+				<div class="row">
+					<div class="col span_1_of_2">
+						<p class="little-description">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
+						<br>
+						<p class="little-description">Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
+					</div>
+					<div class="col span_1_of_2">
+						<p class="little-description">Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.</p>
+						<div class="social-icons">
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-google-plus-g"></i></a>
+							<a href="#"><i class="fab fa-dribbble"></i></a>
+							<a href="#"><i class="fas fa-coffee"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!----END INTRODUCTION SECTION----->
+		<!----START TESTIMONIALS SECTION----->
+
+		<section class="testiomnials-section" id="testiomnial">
+			<div class="row">
+				<h2>testiomnials</h2>
+				<span class="dbl-cot">”</span>
+			</div>
+			<div class="row">
+				<h3>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</h3>
+				<span class="name">-Walter White</span>
+			</div>
+		</section>
+
+		<!----END TESTIMONIALS SECTION----->
+		<!----START CONTACT SECTION----->
+
+		<section class="contact-section" id="contact">
+			<div class="row">
+				<h2>contact</h2>
+					<div class="col span_1_of_2 address">
+						<p class="little-description">
+						Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
+						</p>	
+						<p class="little-description address">
+						Linda Newman <br>
+						W325 State Road 123 <br>
+						Mondovi, WI(Wisconsin) 98746-54321 <br>
+						(715) 946 - 1234
+						</p>
+					</div>
+				<form action="">
+					<div class="col span_1_of_2   contact-form">
+						<label for="">Full name</label>
+						<input type="text" required>
+						<br>
+						<label for="">Email</label>
+						<input type="text" required>
+						<label for="Message">Message</label>
+						<textarea name="" id="" cols="30" rows="5" required></textarea>
+						<a href="#" class="submit">message</a>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<!----END CONTACT SECTION----->
+		<!----FOOTER SECTION START----->
+
+		<footer class="footer-section">
+			<div class="row">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li>|</li>
+					<li><a href="#">services</a></li>
+					<li>|</li>
+					<li><a href="#">portfolio</a></li>
+					<li>|</li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!----FOOTER SECTION END----->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="vendors/js/html5shiv-printshiv.min.js"></script>
+		<script src="vendors/js/selectivizr-min.js"></script>
+		<script src="vendors/js/jquery.waypoints.min.js"></script>
+		<script src="vendors/js/mixitup.min.js"></script>
+		<script src="vendors/js/respond.min.js"></script>
+		<script src="resourse/js/main.js"></script>
+	</body>
+
+	</html>

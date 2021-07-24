@@ -1,0 +1,322 @@
+@media screen and (min-width:1200px){
+.row {
+	max-width: 115rem;
+}
+.header-text-box h1{
+	width:85rem;
+}
+
+}
+@media screen and (max-width:1200px){
+.row {
+	width: 95rem;
+}
+.header-text-box h1 {
+	width: 80%;
+}
+.little-description {
+	width: 21rem;
+}
+.portfolio-section img,.portfolio-img .col:first-child{
+	height: 14.5rem;
+}
+.twitter-section h3 {
+	width: 90rem;
+}
+.testiomnials-section h3 {
+	margin-top: 0.5rem;
+}
+.contact-section .little-description {
+	line-height: 1.6rem;
+}
+.contact-section label {
+	margin-top: 1.5rem;
+}
+
+
+}
+@media screen and (max-width:992px){
+.row {
+	width: 70rem;
+}
+nav ul{
+	display: none;
+}
+.mobile-menu span{
+	display: block;
+}
+.sticky .logo {
+	margin: 0.4rem;
+}
+.sticky .mobile-menu span {
+	font-size: 1.8rem;
+	padding: .3rem .7rem;
+}
+.header-section {
+	height: 75%;
+}
+h1 {
+	top: 38%;
+}
+.span_1_of_6 .col:first-child {
+	margin-left: 5%;
+}
+.span_1_of_4 {
+	width: 40%;
+	margin: 0 5%;
+}
+.service-section .col:first-child {
+	margin-left: 5%;
+}
+.service-section h2{
+	text-align: left;
+}
+.service-section {
+	text-align: center;
+}
+.service-section .little-description {
+	width: 100%;
+	text-align: center;
+}
+button, .btn-visit {
+	padding: .4rem .5rem;
+}
+.portfolio-section img, .portfolio-img .col:first-child {
+	height: 10.5rem;
+}
+.default-section .little-description {
+	width: 100%;
+}
+.twitter-section h3 {
+	width: 100%;
+}
+.introduction-section .little-description {
+	width: 90%;
+}
+.introduction-section .social-icons a:link, .introduction-section .social-icons a:visited {
+	font-size: 2rem;
+}
+.contact-section .little-description {
+	margin-top: 1rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+.row {
+	width: 54rem;
+}
+section {
+	padding: 4rem 0;
+}
+.mobile-menu span {
+	font-size: 1.9rem;
+	padding: .2rem .5rem;
+	margin-top: 1rem;
+}
+.sticky .mobile-menu span {
+	margin-top: -0.2rem;
+}
+.main-navbar img {
+	height: 1.8rem;
+	margin: 1.5rem 0;
+}
+.header-section {
+	height: 60%;
+}
+h1 {
+	top: 30%;
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2.5rem;
+}
+.service-section .icon img {
+	height: 4rem;
+}
+h3 {
+	font-size: 2rem;
+}
+.little-description {
+	margin-top: 1rem;
+}
+.span_1_of_6 {
+	width: 23.8%;
+}
+.portfolio-section .col:nth-child(5),.portfolio-section .col:nth-child(9) {
+	margin-left: 0;
+}
+.portfolio-section .col:nth-child(7) {
+	margin-left: 1.6%;
+}
+.portfolio-section .btn-mix {
+	float:none;
+	text-align: center;
+}
+.portfolio-section .portfolio-img {
+	margin-top: 2rem;
+}
+.default-section video {
+	margin-top: 2.5rem;
+}
+.default-section .span_1_of_2 {
+	width: 96.5%;
+}
+.twitter-section h3 {
+	width: 90%;
+}
+.testiomnials-section .dbl-cot {
+	font-size: 5.2rem;
+}
+.testiomnials-section h3 {
+	margin-top: 2.5rem;
+	font-size: 1.7rem;
+	line-height: 3rem;
+}
+.testiomnials-section .name {
+	margin-top: 1rem;
+}
+.contact-section input, textarea {
+	padding: .5rem;
+	font-size: 1.5rem;
+	width: 90%;
+}
+.contact-section .address {
+	margin: 2rem 0;
+}
+.contact-section .little-description {
+	line-height: 1.2rem;
+	font-size: 1.1rem;
+	margin-top: 1.5rem;
+	width:100%;
+	margin-left: auto;
+}
+
+.contact-section textarea{
+	width:200%;
+}
+.contact-section a.submit {
+	padding: 1.1rem 4rem;
+}
+
+
+
+
+
+}
+@media screen and (max-width:576px){
+.row {
+	width: 43rem;
+}
+html {
+	font-size: 60%;
+}
+.header-section {
+	height: 50%;
+}
+h1 {
+	top: 23%;
+}
+.little-description {
+	font-size: 1.4rem;
+	width: 100%;
+}
+/*.default-section .span_1_of_2 {
+	width: 90%;
+	margin: 0 5%;
+}*/
+.introduction-section .span_1_of_2 {
+	width: 100%;
+	margin: 0;
+}
+.contact-section .address {
+	float: left;
+}
+.contact-section .little-description, .contact-section input{
+	width: 100%;
+}
+.contact-section .span_1_of_2{
+	width:80%;
+	margin-left: 10%;
+}
+.contact-section textarea{
+	width:100%;
+}
+}
+@media screen and (max-width:480px){
+.row {
+	width: 30rem;
+}	
+.span_1_of_4 {
+	width: 90%;
+	margin: 0 5%;
+}
+button, .btn-visit {
+	padding: .4rem .3rem;
+	font-size: 1.2rem;
+}
+.portfolio-section img, .portfolio-img .col:first-child{
+	height: 9.5rem;
+}
+.span_1_of_6 {
+	width: 31.33%;
+	margin: 1%;
+}
+.portfolio-section .col:nth-child(4),
+.portfolio-section .col:nth-child(7),
+.portfolio-section .col:nth-child(10) {
+	margin-left: 0;
+}.portfolio-section .col:nth-child(5) {
+	margin: 1%;
+}
+.portfolio-section .col:nth-child(9) {
+	margin-left: 1%;
+}
+.default-section .span_1_of_2 {
+	width: 98%;
+	margin: 1%;
+}
+.default-section {
+	text-align: center;
+}
+.default-section h2{
+	float:left;
+}
+.twitter-section h3 {
+	width: 80%;
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 1.5rem auto;
+}
+.introduction-section .little-description {
+	width: 90%;
+	margin: 1rem auto;
+}
+.introduction-section .social-icons {
+	width: 66%;
+	margin: 2rem auto;
+}
+.testiomnials-section h3 {
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+.contact-section .little-description {
+	line-height: 1.5rem;
+	font-size: 1.3rem;
+	margin-bottom: 0;
+}
+.contact-section a.submit {
+	padding: 1.1rem 2rem;
+	font-size: 1.2rem;
+}
+}*/
